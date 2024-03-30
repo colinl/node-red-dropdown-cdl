@@ -1,0 +1,21 @@
+{
+  "name": "@colinl/node-red-dropdown",
+  "version": "0.0.1",
+  "description": "A node red dropdown select box for @flowfuse/node-red-dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "dropdown",
+    "dashboard"
+  ],
+  "node-red": {
+    "nodes": {
+        "dropdown-cdl": "dropdown.js"
+    }
+  },
+  "author": "Colin Law",
+  "license": "Apache-2.0"
+}
